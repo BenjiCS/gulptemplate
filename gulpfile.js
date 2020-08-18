@@ -65,7 +65,7 @@ function watchJson() {
 }
 
 function images(done) {
-	gulp.src("./src/images/*")
+	gulp.src("./src/images/**/*")
 		.pipe(imagemin())
 		.pipe(gulp.dest("./dist/assets/images"))
 		.pipe(connect.reload());
@@ -73,7 +73,7 @@ function images(done) {
 }
 
 function watchImages() {
-	gulp.watch("./src/images/*", { ignoreInitial: false }, images);
+	gulp.watch("./src/images/**/*", { ignoreInitial: false }, images);
 }
 
 gulp.task("dev", function(done) {
