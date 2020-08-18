@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HappyHomie/G-M.git"
+    "url": "git+https://github.com/BenjiCS/gulptemplate.git"
   },
   "keywords": [],
-  "author": "Tobias Eskou",
+  "author": "Benjamin Hansen",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/HappyHomie/G-M/issues"
+    "url": "https://github.com/BenjiCS/gulptemplate/issues"
   },
-  "homepage": "https://github.com/HappyHomie/G-M#readme",
+  "homepage": "https://github.com/BenjiCS/gulptemplate#readme",
   "dependencies": {
     "@babel/core": "^7.7.2",
     "@babel/preset-env": "^7.7.1",
